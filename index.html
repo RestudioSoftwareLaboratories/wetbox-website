@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wetbox Engine — Professional Game Framework</title>
+  <title>Wetbox Framework — Professional Game Development</title>
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="https://i.postimg.cc/Rh3BTjRM/cube.png">
   <!-- Google Fonts: Inter + Material Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Font Awesome (لأيقونات أنظمة التشغيل فقط) -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <style>
     * {
@@ -26,7 +26,7 @@
       scroll-behavior: smooth;
     }
 
-    /* ===== HEADER===== */
+    /* ===== HEADER ===== */
     .site-header {
       background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(10px);
@@ -83,7 +83,7 @@
       color: white !important;
     }
 
-    /* ===== HERO SECTION - مع خلفية السيارة ===== */
+    /* ===== HERO SECTION ===== */
     .hero {
       position: relative;
       min-height: 85vh;
@@ -546,7 +546,7 @@
       font-size: 0.8rem;
     }
 
-    /* ===== المربعين الجديدين (Restudio Ecosystem + Blender) ===== */
+    /* ===== TWO BOX GRID ===== */
     .two-box-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -663,31 +663,31 @@
 
 <header class="site-header">
   <div class="logo-area">
-    <img src="https://i.postimg.cc/Rh3BTjRM/cube.png" alt="Wetbox Engine">
+    <img src="https://i.postimg.cc/Rh3BTjRM/cube.png" alt="Wetbox Framework">
   </div>
   <nav class="main-nav">
     <a href="#">HOME</a>
-    <a href="https://restudio-games.itch.io/wetbox-game-engine" target="_blank" class="download-nav">DOWNLOAD</a>
+    <a href="https://github.com/RestudioSoftwareLaboratories/wetbox-website/releases/tag/download-wetbox" target="_blank" class="download-nav">DOWNLOAD</a>
     <a href="#docs">LEARN</a>
     <a href="#about">COMMUNITY</a>
   </nav>
 </header>
 
 <main>
-  <!-- Hero Section مع خلفية السيارة -->
+  <!-- Hero Section -->
   <div class="hero">
     <div class="hero-content">
       <h1>Build Games. Without Limits.</h1>
-      <div class="tagline">Wetbox Engine is a no-compromise game engine built for developers who</div>
+      <div class="tagline">Wetbox Framework is a no-compromise game development framework built for developers who</div>
       <div class="subhead">want full control, real performance, and zero hand-holding.</div>
-      <a href="https://restudio-games.itch.io/wetbox-game-engine" target="_blank" class="hero-cta">
+      <a href="https://github.com/RestudioSoftwareLaboratories/wetbox-website/releases/tag/download-wetbox" target="_blank" class="hero-cta">
         GET STARTED NOW <span class="material-icons" style="font-size: 18px;">arrow_forward</span>
       </a>
     </div>
   </div>
 
   <div class="container">
-    <!-- المربعين الجديدين: Restudio Ecosystem + Blender (وضعناهم هنا كما طلبت) -->
+    <!-- Two Box Grid: Restudio Ecosystem + Blender -->
     <div class="two-box-grid">
       <!-- Card 1: Restudio Ecosystem -->
       <div class="ecosystem-card">
@@ -709,7 +709,7 @@
       </div>
     </div>
 
-    <!-- Mixamo Section (يبقى كما هو) -->
+    <!-- Mixamo Section -->
     <h2 class="section-title">Mixamo Integration</h2>
     <div class="mixamo-grid">
       <div class="mixamo-card">
@@ -815,12 +815,10 @@
 
     <!-- About Section -->
     <div id="about" style="margin-top: 60px;">
-      <h2 class="section-title">About Wetbox</h2>
+      <h2 class="section-title">About Wetbox Framework</h2>
       <div style="max-width: 900px; margin: 0 auto;">
-        <p style="color: #4a4a4a; margin-bottom: 20px; text-align: center; font-size: 1.05rem; line-height: 1.6;"><strong>Wetbox Engine</strong> is a professional game development framework designed for developers who demand full transparency. There is no built‑in library — you assemble your tech stack exactly as your project demands.</p>
-        <p style="color: #4a4a4a; text-align: center; font-size: 1.05rem; line-height: 1.6;">The engine has no built-in libraries; developers install and configure the libraries themselves according to their project needs. Restudio Games' role is to prepare these libraries to make getting started easier, but they are not part of the engine itself.
-
-</p>
+        <p style="color: #4a4a4a; margin-bottom: 20px; text-align: center; font-size: 1.05rem; line-height: 1.6;"><strong>Wetbox Framework</strong> is a professional game development framework designed for developers who demand full transparency and complete control over their workflow. There is no built‑in library bundled with the framework — you assemble your tech stack exactly as your project demands, choosing the tools that best fit your vision.</p>
+        <p style="color: #4a4a4a; text-align: center; font-size: 1.05rem; line-height: 1.6;">The framework ships with no built-in libraries; developers install and configure the libraries themselves according to their project needs. Restudio Software Laboratories' role is to prepare and curate these libraries to make getting started easier, but they are not part of the framework itself. This design philosophy keeps Wetbox Framework lightweight, flexible, and free from unnecessary dependencies, giving developers the freedom to build exactly what they need.</p>
       </div>
     </div>
   </div>
@@ -829,7 +827,7 @@
   <div class="cta-section">
     <div class="cta-container">
       <h2>Get started now!</h2>
-      <a href="https://restudio-games.itch.io/wetbox-game-engine" target="_blank" class="cta-btn">
+      <a href="https://github.com/RestudioSoftwareLaboratories/wetbox-website/releases/tag/download-wetbox" target="_blank" class="cta-btn">
         DOWNLOAD <span class="material-icons" style="font-size: 18px;">download</span>
       </a>
     </div>
@@ -841,9 +839,9 @@
     <div class="footer-logo">
       <img src="https://i.postimg.cc/8zSg7pcN/swrh-restudio-nskht-(2).png" alt="Restudio">
     </div>
-    <div class="copyright">© 2026 Restudio software laboratories. All rights reserved.</div>
+    <div class="copyright">© 2026 Restudio Software Laboratories. All rights reserved.</div>
     <div class="footer-social">
-      <a href="https://github.com/restudio-games" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/RestudioSoftwareLaboratories" target="_blank"><i class="fab fa-github"></i></a>
       <a href="https://x.com/RESTUDIO_GAMES" target="_blank"><i class="fab fa-x-twitter"></i></a>
     </div>
   </div>
